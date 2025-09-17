@@ -13,9 +13,9 @@ sys.path.insert(0, os.path.abspath('..'))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Awesome MFFMs Documentation'
-copyright = '2025, Awesome MFFMs'
-author = 'Awesome MFFMs'
+project = 'FinAudio-Doc'
+copyright = '2025, FinAudio'
+author = 'FinAudio Team'
 release = '1.0'
 
 # -- General configuration ---------------------------------------------------
@@ -58,7 +58,7 @@ html_context = {
     "github_user": "CYP0630", # Username
     "github_repo": "FinAudio-Doc", # Repo name
     "github_version": "main", # Version
-    "conf_py_path": "/docs/source/", # Path in the checkout to the docs root
+    "conf_py_path": "/docs", # Path in the checkout to the docs root
 }
 
 latex_elements = {
