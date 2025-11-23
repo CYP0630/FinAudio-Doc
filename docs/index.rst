@@ -7,6 +7,7 @@ FinAudio Documentation
 ==================================================
 Welcome to FinAudio's documentation!
 
+Committed to advancing AudioLLM research in the financial domain, with a focus on performance evaluation, dataset development, and the design of novel tasks.
 
 .. Add your content using ``reStructuredText`` syntax. See the
    `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
@@ -19,4 +20,13 @@ Welcome to FinAudio's documentation!
    :caption: Introduction
 
    intro/overview
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Benchmark
+
+   benchmark/data
+   benchmark/tasks
+   benchmark/results
+
 
