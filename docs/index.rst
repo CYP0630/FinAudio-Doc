@@ -26,7 +26,7 @@ Committed to advancing AudioLLM research in the financial domain, with a focus o
    :caption: Benchmark
 
    benchmark/data
-   benchmark/tasks
+   benchmark/task
    benchmark/results
 
 
