@@ -21,5 +21,4 @@ FinAudio Documentation
    :caption: Introduction
 
    intro/overview
-   intro/terminology
 
