@@ -11,4 +11,5 @@ services, sentiment analysis, and investment decisions.
    :alt: An overview of critical financial audio data types and applications.
 
 
+
 We introduce FinAudio, the first AudioLLM benchmark tailored for the financial domain. 
