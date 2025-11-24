@@ -16,6 +16,9 @@ FinAudioSum           Long Audio    64         55        long financial audio Su
 We create *FinAudioSum* based on the ECTSum dataset, originally designed for earnings call summarization using textual data. ECTSum comprises 2,425 earnings transcripts paired with expert-generated, telegram-style summaries. We obtain corresponding audio recordings for the ECTSum test set from `earningscast <https://earningscast.com/>`_. Overlapping recordings with Earnings-21 and Earnings-22 (spanning 2019–2022) are removed. The final *FinAudioSum* dataset includes 64 recordings totaling 55 hours.
 
 [1] [What You Say and How You Say It Matters: Predicting Financial Risk Using Verbal and Vocal Cues](https://aclanthology.org/P19-1038.pdf) ACL 2019. [Data](https://github.com/GeminiLn/EarningsCall_Dataset/tree/master)
+
 [2] [SPGISpeech: A Large-Scale Dataset for Financial Speech Recognition](https://arxiv.org/pdf/2104.02014) InterSpeech 2021.
+
 [3] [Earnings-21: A practical benchmark for ASR in the wild](https://arxiv.org/pdf/2104.11348) InterSpeech 2021.
+
 [4] Earnings-22: A Practical Benchmark for Accents in the Wild
