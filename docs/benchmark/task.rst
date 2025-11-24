@@ -6,7 +6,7 @@ Here we specify the FinAudio tasks, which are illustrated in below Figure.
 
 
 .. figure:: img/pipeline.png
-   :width: 60%  
+   :width: 95%  
    :align: center  
    :alt: Evaluation pipelines for the three FinAudio's major tasks.
 
@@ -29,4 +29,4 @@ Financial audio summarization
 =============================
 This task measures the ability of AudioLLMs to accurately summarize long financial audio content, a scenario unique to financial applications. It evaluates models' understanding of financial discussions, extraction of key points, and effectiveness in condensing lengthy audio into concise summaries. This capability is crucial for stakeholders needing quick insights from extensive financial dialogues, such as investor briefings or regulatory meetings.
 
-AudioLLMs can process audio with a maximum length of 30 seconds. Therefore, AudioLLM cannot perform the summarization task independently, we developed a processing pipeline. Given input data represented as :math:`(A, Q, L)`, where :math:`A` denotes the long audio recording, :math:`Q` the prompt instruction, and :math:`L` the reference summary, the pipeline first segments the long audio into smaller chunks. Each chunk is transcribed by an AudioLLM into text segments :math:`t_i`, which are combined into a complete transcription :math:`T`. This transcription is then input into an LLM to generate the summary :math:`S`. Summarization performance is evaluated using two widely adopted summarization evaluation metrics: Rouge-L and BertScore, computed between the generated summary (:math:`S`) and the reference summary (:math:`L`).
+AudioLLMs can process audio with a maximum length of 30 seconds. Therefore, AudioLLM cannot perform the summarization task independently, we developed a processing pipeline. Given input data represented as $(A, Q, L)$, where $A$ denotes the long audio recording, $Q$ the prompt instruction, and $L$ the reference summary, the pipeline first segments the long audio into smaller chunks (see Section~\ref{long_asr}). Each chunk is transcribed by an AudioLLM into text segments $t_i$, which are combined into a complete transcription $T$. This transcription is then input into an LLM to generate the summary $S$. Summarization performance is evaluated using two widely adopted summarization evaluation metrics: Rouge-L~\cite{lin2004rouge} and BertScore~\cite{zhangbertscore}, computed between the generated summary ($S$) and the reference summary ($L$).
