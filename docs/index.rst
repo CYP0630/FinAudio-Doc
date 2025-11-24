@@ -9,6 +9,9 @@ Welcome to FinAudio's documentation!
 
 Committed to advancing AudioLLM research in the financial domain, with a focus on performance evaluation, dataset development, and the design of novel tasks.
 
+Based on our `paper <https://arxiv.org/pdf/2503.20990v1>`_, we provide real-time updates to the evaluation results within this document.
+
+
 .. Add your content using ``reStructuredText`` syntax. See the
    `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
    documentation for details.
